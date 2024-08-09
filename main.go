@@ -3,10 +3,11 @@ package main
 import (
 	"fmt"
 
-	"github.com/Diegovalen47/data-structures/array"
+	basicmath "github.com/Diegovalen47/data-structures/basic_math"
 )
 
 func main() {
-	myArray := []int{1, 2, 3, 4}
-	fmt.Println(array.PrintArray(myArray))
+	myInteger := -54398798798798
+	fmt.Println(myInteger)
+	fmt.Println(basicmath.Reverse(myInteger))
 }
