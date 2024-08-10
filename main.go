@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	myInteger := -54398798798798
+	myInteger := 121
 	fmt.Println(myInteger)
-	fmt.Println(basicmath.Reverse(myInteger))
+	fmt.Println(basicmath.IsPalindrome(myInteger))
 }
