@@ -3,11 +3,12 @@ package main
 import (
 	"fmt"
 
-	basicmath "github.com/Diegovalen47/data-structures/basic_math"
+	"github.com/Diegovalen47/data-structures/array"
 )
 
 func main() {
-	myInteger := 121
-	fmt.Println(myInteger)
-	fmt.Println(basicmath.IsPalindrome(myInteger))
+	myArray1 := []int{1, 2}
+	myArray2 := []int{3, 4}
+
+	fmt.Println(array.FindMedianSortedArrays(myArray1, myArray2))
 }
