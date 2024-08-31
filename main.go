@@ -1,9 +1,9 @@
 package main
 
 import (
-	linkedlist "github.com/Diegovalen47/data-structures/linked_list"
+	compbasedsorts "github.com/Diegovalen47/data-structures/comp_based_sorts"
 )
 
 func main() {
-	linkedlist.MainExecution()
+	compbasedsorts.RunInsertionSortList()
 }
